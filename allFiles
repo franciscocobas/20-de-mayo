@@ -1,0 +1,7 @@
+import AguirreMaRosa from '../public/images/Aguirre Ma Rosa.jpeg';
+import AlfaroDaniel from '../public/images/Alfaro Daniel.jpeg';
+import AltarmiranoRicardo from '../public/images/Altarmirano Ricardo.jpeg';
+import AltmanBlanca from '../public/images/Altman Blanca.jpeg';
+
+
+const images = [<Link key="Aguirre Ma Rosa" href="AguirreMaRosa"><Image src={AguirreMaRosa} alt="Imagen de Aguirre Ma Rosa" /></Link>, <Link key="Alfaro Daniel" href="AlfaroDaniel"><Image src={AlfaroDaniel} alt="Imagen de Alfaro Daniel" /></Link>, <Link key="Altarmirano Ricardo" href="AltarmiranoRicardo"><Image src={AltarmiranoRicardo} alt="Imagen de Altarmirano Ricardo" /></Link>, <Link key="Altman Blanca" href="AltmanBlanca"><Image src={AltmanBlanca} alt="Imagen de Altman Blanca" /></Link>, ]

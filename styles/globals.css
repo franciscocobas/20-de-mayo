@@ -14,3 +14,35 @@ a {
 * {
   box-sizing: border-box;
 }
+
+header {
+  background: black;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+header .container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+main.main-homepage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 1rem;
+  padding: 0.5rem 1.5rem;
+}
+
+main.main-homepage img {
+  cursor: pointer;
+}
