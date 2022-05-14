@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import BalinasOscar from '../public/images/Baliñas Oscar.jpeg';
+import BalinasOscar from '../public/images/Balinas Oscar.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const BalinasOscarPage = () => {
   return (
     <>
       <Head>
-        <title>Baliñas Oscar</title>
+        <title>Balinas Oscar</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const BalinasOscarPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={BalinasOscar} alt="Foto de Baliñas Oscar" />
+        <Image src={BalinasOscar} alt="Foto de Balinas Oscar" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>
