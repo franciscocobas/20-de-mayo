@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import HernandezHobbasWashington from '../public/images/Hernández Hobbas Washington.jpeg';
+import HernandezHobbasWashington from '../public/images/Hernandez Hobbas Washington.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const HernandezHobbasWashingtonPage = () => {
   return (
     <>
       <Head>
-        <title>Hernández Hobbas Washington</title>
+        <title>Hernandez Hobbas Washington</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const HernandezHobbasWashingtonPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={HernandezHobbasWashington} alt="Foto de Hernández Hobbas Washington" />
+        <Image src={HernandezHobbasWashington} alt="Foto de Hernandez Hobbas Washington" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

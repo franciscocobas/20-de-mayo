@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import GrinsponMonica from '../public/images/Grinspón Mónica.jpeg';
+import GrinsponMonica from '../public/images/Grinspon Monica.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const GrinsponMonicaPage = () => {
   return (
     <>
       <Head>
-        <title>Grinspón Mónica</title>
+        <title>Grinspon Monica</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const GrinsponMonicaPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={GrinsponMonica} alt="Foto de Grinspón Mónica" />
+        <Image src={GrinsponMonica} alt="Foto de Grinspon Monica" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

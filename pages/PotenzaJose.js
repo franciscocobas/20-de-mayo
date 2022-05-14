@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import PotenzaJose from '../public/images/Potenza José.jpeg';
+import PotenzaJose from '../public/images/Potenza Jose.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const PotenzaJosePage = () => {
   return (
     <>
       <Head>
-        <title>Potenza José</title>
+        <title>Potenza Jose</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const PotenzaJosePage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={PotenzaJose} alt="Foto de Potenza José" />
+        <Image src={PotenzaJose} alt="Foto de Potenza Jose" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

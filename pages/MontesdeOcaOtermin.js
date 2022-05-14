@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import MontesdeOcaOtermin from '../public/images/Montes de Oca Otermín.jpeg';
+import MontesdeOcaOtermin from '../public/images/Montes de Oca Otermin.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const MontesdeOcaOterminPage = () => {
   return (
     <>
       <Head>
-        <title>Montes de Oca Otermín</title>
+        <title>Montes de Oca Otermin</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const MontesdeOcaOterminPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={MontesdeOcaOtermin} alt="Foto de Montes de Oca Otermín" />
+        <Image src={MontesdeOcaOtermin} alt="Foto de Montes de Oca Otermin" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

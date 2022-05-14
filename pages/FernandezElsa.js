@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import FernandezElsa from '../public/images/Fernández Elsa.jpeg';
+import FernandezElsa from '../public/images/Fernandez Elsa.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const FernandezElsaPage = () => {
   return (
     <>
       <Head>
-        <title>Fernández Elsa</title>
+        <title>Fernandez Elsa</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const FernandezElsaPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={FernandezElsa} alt="Foto de Fernández Elsa" />
+        <Image src={FernandezElsa} alt="Foto de Fernandez Elsa" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

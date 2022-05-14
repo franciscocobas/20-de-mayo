@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import PerezEduardo from '../public/images/Pérez Eduardo.jpeg';
+import PerezEduardo from '../public/images/Perez Eduardo.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const PerezEduardoPage = () => {
   return (
     <>
       <Head>
-        <title>Pérez Eduardo</title>
+        <title>Perez Eduardo</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const PerezEduardoPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={PerezEduardo} alt="Foto de Pérez Eduardo" />
+        <Image src={PerezEduardo} alt="Foto de Perez Eduardo" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

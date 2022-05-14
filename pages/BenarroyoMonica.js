@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import BenarroyoMonica from '../public/images/Benarroyo Mónica.jpeg';
+import BenarroyoMonica from '../public/images/Benarroyo Monica.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const BenarroyoMonicaPage = () => {
   return (
     <>
       <Head>
-        <title>Benarroyo Mónica</title>
+        <title>Benarroyo Monica</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const BenarroyoMonicaPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={BenarroyoMonica} alt="Foto de Benarroyo Mónica" />
+        <Image src={BenarroyoMonica} alt="Foto de Benarroyo Monica" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

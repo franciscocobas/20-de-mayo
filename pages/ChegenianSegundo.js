@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import ChegenianSegundo from '../public/images/Chegenián Segundo.jpeg';
+import ChegenianSegundo from '../public/images/Chegenian Segundo.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const ChegenianSegundoPage = () => {
   return (
     <>
       <Head>
-        <title>Chegenián Segundo</title>
+        <title>Chegenian Segundo</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const ChegenianSegundoPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={ChegenianSegundo} alt="Foto de Chegenián Segundo" />
+        <Image src={ChegenianSegundo} alt="Foto de Chegenian Segundo" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

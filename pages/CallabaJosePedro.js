@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import CallabaJosePedro from '../public/images/Callaba José Pedro.jpeg';
+import CallabaJosePedro from '../public/images/Callaba Jose Pedro.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const CallabaJosePedroPage = () => {
   return (
     <>
       <Head>
-        <title>Callaba José Pedro</title>
+        <title>Callaba Jose Pedro</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const CallabaJosePedroPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={CallabaJosePedro} alt="Foto de Callaba José Pedro" />
+        <Image src={CallabaJosePedro} alt="Foto de Callaba Jose Pedro" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

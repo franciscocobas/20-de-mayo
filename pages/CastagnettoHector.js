@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import CastagnettoHector from '../public/images/Castagnetto Héctor.jpeg';
+import CastagnettoHector from '../public/images/Castagnetto Hector.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const CastagnettoHectorPage = () => {
   return (
     <>
       <Head>
-        <title>Castagnetto Héctor</title>
+        <title>Castagnetto Hector</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const CastagnettoHectorPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={CastagnettoHector} alt="Foto de Castagnetto Héctor" />
+        <Image src={CastagnettoHector} alt="Foto de Castagnetto Hector" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

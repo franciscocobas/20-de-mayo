@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import OrtizFelix from '../public/images/Ortiz Félix.jpeg';
+import OrtizFelix from '../public/images/Ortiz Felix.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const OrtizFelixPage = () => {
   return (
     <>
       <Head>
-        <title>Ortiz Félix</title>
+        <title>Ortiz Felix</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const OrtizFelixPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={OrtizFelix} alt="Foto de Ortiz Félix" />
+        <Image src={OrtizFelix} alt="Foto de Ortiz Felix" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

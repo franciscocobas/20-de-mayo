@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import CendanJuanAngel from '../public/images/Cendán Juan Ángel.jpeg';
+import CendanJuanAngel from '../public/images/Cendán Juan Angel.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const CendanJuanAngelPage = () => {
   return (
     <>
       <Head>
-        <title>Cendán Juan Ángel</title>
+        <title>Cendán Juan Angel</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const CendanJuanAngelPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={CendanJuanAngel} alt="Foto de Cendán Juan Ángel" />
+        <Image src={CendanJuanAngel} alt="Foto de Cendán Juan Angel" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

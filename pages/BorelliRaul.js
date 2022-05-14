@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import BorelliRaul from '../public/images/Borelli Raúl.jpeg';
+import BorelliRaul from '../public/images/Borelli Raul.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const BorelliRaulPage = () => {
   return (
     <>
       <Head>
-        <title>Borelli Raúl</title>
+        <title>Borelli Raul</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const BorelliRaulPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={BorelliRaul} alt="Foto de Borelli Raúl" />
+        <Image src={BorelliRaul} alt="Foto de Borelli Raul" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

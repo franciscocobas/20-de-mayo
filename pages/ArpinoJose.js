@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import ArpinoJose from '../public/images/Arpino José.jpeg';
+import ArpinoJose from '../public/images/Arpino Jose.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const ArpinoJosePage = () => {
   return (
     <>
       <Head>
-        <title>Arpino José</title>
+        <title>Arpino Jose</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const ArpinoJosePage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={ArpinoJose} alt="Foto de Arpino José" />
+        <Image src={ArpinoJose} alt="Foto de Arpino Jose" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

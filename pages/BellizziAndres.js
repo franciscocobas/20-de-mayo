@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import BellizziAndres from '../public/images/Bellizzi Andrés.jpeg';
+import BellizziAndres from '../public/images/Bellizzi Andres.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const BellizziAndresPage = () => {
   return (
     <>
       <Head>
-        <title>Bellizzi Andrés</title>
+        <title>Bellizzi Andres</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const BellizziAndresPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={BellizziAndres} alt="Foto de Bellizzi Andrés" />
+        <Image src={BellizziAndres} alt="Foto de Bellizzi Andres" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>

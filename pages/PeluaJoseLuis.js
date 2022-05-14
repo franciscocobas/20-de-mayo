@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
-import PeluaJoseLuis from '../public/images/Pelúa José Luis.jpeg';
+import PeluaJoseLuis from '../public/images/Pelua Jose Luis.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
@@ -14,7 +14,7 @@ const PeluaJoseLuisPage = () => {
   return (
     <>
       <Head>
-        <title>Pelúa José Luis</title>
+        <title>Pelua Jose Luis</title>
       </Head>
       <header className={styles.header}>
         <Link href="/">
@@ -23,7 +23,7 @@ const PeluaJoseLuisPage = () => {
         <h1>IMÁGENES DEL SILENCIO</h1>
       </header>
       <main className={styles.main}>
-        <Image src={PeluaJoseLuis} alt="Foto de Pelúa José Luis" />
+        <Image src={PeluaJoseLuis} alt="Foto de Pelua Jose Luis" />
         <div className={styles.downloadContainer}>
           <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>
