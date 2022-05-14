@@ -1,4 +1,5 @@
 const fs = require('fs');
+const slugify = require('slugify');
 
 function createPageString(imageFilenameComplete, cammelCaseName, onlyNameWithSpaces) {
   return `import * as React from 'react';
@@ -8,11 +9,11 @@ import Link from 'next/link';
 import styles from '../styles/Page.module.css';
 
 import ${cammelCaseName} from '../public/images/${imageFilenameComplete}';
-import BackArrow from '../public/images/back_arrow.svg';
-import DownloadIcon from '../public/images/download.svg';
+import BackArrow from '../public/images/icons/back_arrow.svg';
+import DownloadIcon from '../public/images/icons/download.svg';
 
 const ${cammelCaseName}Page = () => {
-  const [imageSrc] = React.useState(AguirreMaRosa.src);
+  const [imageSrc] = React.useState(${cammelCaseName}.src);
 
   return (
     <>
@@ -56,7 +57,7 @@ export default ${cammelCaseName}Page;
       const onlyNameWithSpaces = imageFilenameComplete.slice(0, imageFilenameComplete.length - 5);
 
       // Remove extension
-      const cammelCaseName = onlyNameWithSpaces.replace(/ /g, '');
+      const cammelCaseName = slugify(onlyNameWithSpaces.replace(/ /g, ''));
 
       // 
       importStatementForAllImages += `import ${cammelCaseName} from '../public/images/${imageFilenameComplete}';
