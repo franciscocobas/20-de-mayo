@@ -1,23 +1,35 @@
 const fs = require('fs');
-const path = require('path');
 
 function createPageString(imageFilenameComplete, cammelCaseName, onlyNameWithSpaces) {
-  return `
+  return `import * as React from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
+import Link from 'next/link';
+import styles from '../styles/Page.module.css';
+
 import ${cammelCaseName} from '../public/images/${imageFilenameComplete}';
+import BackArrow from '../public/images/back_arrow.svg';
+import DownloadIcon from '../public/images/download.svg';
 
 const ${cammelCaseName}Page = () => {
-  const router = useRouter();
+  const [imageSrc] = React.useState(AguirreMaRosa.src);
 
   return (
     <>
       <Head>
         <title>${onlyNameWithSpaces}</title>
       </Head>
-      <main>
+      <header className={styles.header}>
+        <Link href="/">
+          <Image src={BackArrow} alt="Botón de volver atrás" />
+        </Link>
+        <h1>IMÁGENES DEL SILENCIO</h1>
+      </header>
+      <main className={styles.main}>
         <Image src={${cammelCaseName}} alt="Foto de ${onlyNameWithSpaces}" />
+        <div className={styles.downloadContainer}>
+          <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        </div>
       </main>
     </>
   )
