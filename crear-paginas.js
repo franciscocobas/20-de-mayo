@@ -62,7 +62,7 @@ export default ${cammelCaseName}Page;
       // 
       importStatementForAllImages += `import ${cammelCaseName} from '../public/images/${imageFilenameComplete}';
 `;
-      arrayOfAllImages += `<Link key="${onlyNameWithSpaces}" href="${cammelCaseName}"><Image src={${cammelCaseName}} alt="Imagen de ${onlyNameWithSpaces}" /></Link>, `
+      arrayOfAllImages += `<Link key="${onlyNameWithSpaces}" href="${cammelCaseName}"><Image placeholder="blur" src={${cammelCaseName}} alt="Imagen de ${onlyNameWithSpaces}" /></Link>, `
       
 
       // Create Page
