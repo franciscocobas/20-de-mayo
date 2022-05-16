@@ -45,8 +45,6 @@ export default ${cammelCaseName}Page;
 (async () => {
   try {
     const images = await fs.promises.readdir('./public/images/');
-    let importStatementForAllImages = ``;
-    let arrayOfAllImages = `const images = [`;
     // Loop through all images
     for (imageFilenameComplete of images) {
 
@@ -59,20 +57,36 @@ export default ${cammelCaseName}Page;
       // Remove extension
       const cammelCaseName = slugify(onlyNameWithSpaces.replace(/ /g, ''));
 
-      // 
-      importStatementForAllImages += `import ${cammelCaseName} from '../public/images/${imageFilenameComplete}';
-`;
-      arrayOfAllImages += `<Link key="${onlyNameWithSpaces}" href="${cammelCaseName}"><Image placeholder="blur" src={${cammelCaseName}} alt="Imagen de ${onlyNameWithSpaces}" /></Link>, `
-      
-
       // Create Page
-      fs.writeFile(`./pages/${cammelCaseName}.js`, createPageString(imageFilenameComplete, cammelCaseName, onlyNameWithSpaces), (err) => {
-        if (err) throw err;
-      });
+      // fs.writeFile(`./pages/${cammelCaseName}.js`, createPageString(imageFilenameComplete, cammelCaseName, onlyNameWithSpaces), (err) => {
+      //   if (err) throw err;
+      // });
     }
+    
+    const imagesLowQuality = await fs.promises.readdir('./public/images/baja/');
+
+    let importStatementForAllImages = ``;
+    let arrayOfAllImages = `const images = [`;
+
+    for (imageLowQualityFileName of imagesLowQuality) {
+
+      // Do not do anythig for files that are not images
+      if (!String(imageLowQualityFileName).includes('.jpeg')) continue;
+
+
+      const realName = imageLowQualityFileName.slice(0, imageLowQualityFileName.length - 10);
+
+      const imageName = realName.replace(/ /g, '');
+
+      // 
+      importStatementForAllImages += `import ${imageName} from '../public/images/baja/${imageLowQualityFileName}';
+`;
+      arrayOfAllImages += `<Link key="${realName}" href="${imageName}"><Image placeholder="blur" src={${imageName}} alt="Imagen de ${realName}" /></Link>, `;
+    }
+
     importStatementForAllImages += `
 
-${arrayOfAllImages}]
+${arrayOfAllImages}];
 `
 
     fs.writeFile('./allFiles', importStatementForAllImages, (err) => {
