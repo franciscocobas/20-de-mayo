@@ -58,9 +58,9 @@ export default ${cammelCaseName}Page;
       const cammelCaseName = slugify(onlyNameWithSpaces.replace(/ /g, ''));
 
       // Create Page
-      // fs.writeFile(`./pages/${cammelCaseName}.js`, createPageString(imageFilenameComplete, cammelCaseName, onlyNameWithSpaces), (err) => {
-      //   if (err) throw err;
-      // });
+      fs.writeFile(`./pages/${cammelCaseName}.js`, createPageString(imageFilenameComplete, cammelCaseName, onlyNameWithSpaces), (err) => {
+        if (err) throw err;
+      });
     }
     
     const imagesLowQuality = await fs.promises.readdir('./public/images/baja/');
