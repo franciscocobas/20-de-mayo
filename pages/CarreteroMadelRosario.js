@@ -25,7 +25,7 @@ const CarreteroMadelRosarioPage = () => {
       <main className={styles.main}>
         <Image src={CarreteroMadelRosario} alt="Foto de Carretero Ma del Rosario" />
         <div className={styles.downloadContainer}>
-          <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+          <a href={imageSrc} download><Image placeholder="blur" src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>
       </main>
     </>

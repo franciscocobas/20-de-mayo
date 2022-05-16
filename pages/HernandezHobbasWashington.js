@@ -25,7 +25,7 @@ const HernandezHobbasWashingtonPage = () => {
       <main className={styles.main}>
         <Image src={HernandezHobbasWashington} alt="Foto de Hernandez Hobbas Washington" />
         <div className={styles.downloadContainer}>
-          <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+          <a href={imageSrc} download><Image placeholder="blur" src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>
       </main>
     </>

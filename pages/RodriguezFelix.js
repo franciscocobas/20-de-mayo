@@ -25,7 +25,7 @@ const RodriguezFelixPage = () => {
       <main className={styles.main}>
         <Image src={RodriguezFelix} alt="Foto de Rodriguez Felix" />
         <div className={styles.downloadContainer}>
-          <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+          <a href={imageSrc} download><Image placeholder="blur" src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>
       </main>
     </>

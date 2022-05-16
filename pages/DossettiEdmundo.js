@@ -25,7 +25,7 @@ const DossettiEdmundoPage = () => {
       <main className={styles.main}>
         <Image src={DossettiEdmundo} alt="Foto de Dossetti Edmundo" />
         <div className={styles.downloadContainer}>
-          <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+          <a href={imageSrc} download><Image placeholder="blur" src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>
       </main>
     </>

@@ -25,7 +25,7 @@ const MoyanoAlfredoPage = () => {
       <main className={styles.main}>
         <Image src={MoyanoAlfredo} alt="Foto de Moyano Alfredo" />
         <div className={styles.downloadContainer}>
-          <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+          <a href={imageSrc} download><Image placeholder="blur" src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>
       </main>
     </>

@@ -25,7 +25,7 @@ const CacciavillianiHugoPage = () => {
       <main className={styles.main}>
         <Image src={CacciavillianiHugo} alt="Foto de Cacciavilliani Hugo" />
         <div className={styles.downloadContainer}>
-          <a href={imageSrc} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+          <a href={imageSrc} download><Image placeholder="blur" src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         </div>
       </main>
     </>
