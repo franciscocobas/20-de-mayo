@@ -2,8 +2,7 @@ const fs = require('fs');
 const slugify = require('slugify');
 
 function createPageString(imageFilenameComplete, cammelCaseName, onlyNameWithSpaces) {
-  return `import * as React from 'react';
-import Image from 'next/image';
+  return `import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Page.module.css';
@@ -12,29 +11,25 @@ import ${cammelCaseName} from '../public/images/${imageFilenameComplete}';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
-const ${cammelCaseName}Page = () => {
-  const [imageSrc] = React.useState(${cammelCaseName}.src);
-
-  return (
-    <>
-      <Head>
-        <title>${onlyNameWithSpaces}</title>
-      </Head>
-      <header className={styles.header}>
-        <Link href="/">
-          <Image src={BackArrow} alt="Botón de volver atrás" />
-        </Link>
-        <h1>IMÁGENES DEL SILENCIO</h1>
-      </header>
-      <main className={styles.main}>
-        <Image src={${cammelCaseName}} alt="Foto de ${onlyNameWithSpaces}" />
-        <div className={styles.downloadContainer}>
-          <a href={imageSrc} download><Image placeholder="blur" src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
-        </div>
-      </main>
-    </>
-  )
-}
+const ${cammelCaseName}Page = () => (
+  <>
+    <Head>
+      <title>${onlyNameWithSpaces}</title>
+    </Head>
+    <header className={styles.header}>
+      <Link href="/">
+        <Image src={BackArrow} alt="Botón de volver atrás" />
+      </Link>
+      <h1>IMÁGENES DEL SILENCIO</h1>
+    </header>
+    <main className={styles.main}>
+      <Image placeholder="blur" src={${cammelCaseName}} alt="Foto de ${onlyNameWithSpaces}" />
+      <div className={styles.downloadContainer}>
+        <a href={${cammelCaseName}.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+      </div>
+    </main>
+  </>
+);
 
 export default ${cammelCaseName}Page;
 `;

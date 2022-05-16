@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -8,28 +7,24 @@ import BellizziAndres from '../public/images/Bellizzi Andres.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
 
-const BellizziAndresPage = () => {
-  const [imageSrc] = React.useState(BellizziAndres.src);
-
-  return (
-    <>
-      <Head>
-        <title>Bellizzi Andres</title>
-      </Head>
-      <header className={styles.header}>
-        <Link href="/">
-          <Image src={BackArrow} alt="Botón de volver atrás" />
-        </Link>
-        <h1>IMÁGENES DEL SILENCIO</h1>
-      </header>
-      <main className={styles.main}>
-        <Image src={BellizziAndres} alt="Foto de Bellizzi Andres" />
-        <div className={styles.downloadContainer}>
-          <a href={imageSrc} download><Image placeholder="blur" src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
-        </div>
-      </main>
-    </>
-  )
-}
+const BellizziAndresPage = () => (
+  <>
+    <Head>
+      <title>Bellizzi Andres</title>
+    </Head>
+    <header className={styles.header}>
+      <Link href="/">
+        <Image src={BackArrow} alt="Botón de volver atrás" />
+      </Link>
+      <h1>IMÁGENES DEL SILENCIO</h1>
+    </header>
+    <main className={styles.main}>
+      <Image placeholder="blur" src={BellizziAndres} alt="Foto de Bellizzi Andres" />
+      <div className={styles.downloadContainer}>
+        <a href={BellizziAndres.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+      </div>
+    </main>
+  </>
+);
 
 export default BellizziAndresPage;
