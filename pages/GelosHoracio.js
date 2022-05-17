@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const GelosHoracioPage = () => (
   <>
     <Head>
-      <title>Gelos Horacio</title>
+      <title>Gelos Horacio | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Gelos Horacio | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

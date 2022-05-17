@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const DaSilveiraGracielaPage = () => (
   <>
     <Head>
-      <title>Da Silveira Graciela</title>
+      <title>Da Silveira Graciela | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Da Silveira Graciela | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

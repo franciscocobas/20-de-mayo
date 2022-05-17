@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const CamiouMaMercedesPage = () => (
   <>
     <Head>
-      <title>Camiou Ma Mercedes</title>
+      <title>Camiou Ma Mercedes | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Camiou Ma Mercedes | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

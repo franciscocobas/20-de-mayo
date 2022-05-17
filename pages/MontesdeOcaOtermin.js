@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const MontesdeOcaOterminPage = () => (
   <>
     <Head>
-      <title>Montes de Oca Otermin</title>
+      <title>Montes de Oca Otermin | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Montes de Oca Otermin | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

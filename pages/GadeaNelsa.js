@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const GadeaNelsaPage = () => (
   <>
     <Head>
-      <title>Gadea Nelsa</title>
+      <title>Gadea Nelsa | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Gadea Nelsa | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

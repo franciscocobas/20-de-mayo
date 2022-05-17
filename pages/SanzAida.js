@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const SanzAidaPage = () => (
   <>
     <Head>
-      <title>Sanz Aida</title>
+      <title>Sanz Aida | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Sanz Aida | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

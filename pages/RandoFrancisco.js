@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const RandoFranciscoPage = () => (
   <>
     <Head>
-      <title>Rando Francisco</title>
+      <title>Rando Francisco | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Rando Francisco | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

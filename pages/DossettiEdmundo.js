@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const DossettiEdmundoPage = () => (
   <>
     <Head>
-      <title>Dossetti Edmundo</title>
+      <title>Dossetti Edmundo | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Dossetti Edmundo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

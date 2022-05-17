@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const CastroRobertoPage = () => (
   <>
     <Head>
-      <title>Castro Roberto</title>
+      <title>Castro Roberto | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Castro Roberto | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

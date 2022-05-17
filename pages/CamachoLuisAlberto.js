@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const CamachoLuisAlbertoPage = () => (
   <>
     <Head>
-      <title>Camacho Luis Alberto</title>
+      <title>Camacho Luis Alberto | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Camacho Luis Alberto | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

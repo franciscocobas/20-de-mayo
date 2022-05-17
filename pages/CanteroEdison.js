@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const CanteroEdisonPage = () => (
   <>
     <Head>
-      <title>Cantero Edison</title>
+      <title>Cantero Edison | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Cantero Edison | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

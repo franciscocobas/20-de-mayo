@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const BenarroyoMonicaPage = () => (
   <>
     <Head>
-      <title>Benarroyo Monica</title>
+      <title>Benarroyo Monica | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Benarroyo Monica | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

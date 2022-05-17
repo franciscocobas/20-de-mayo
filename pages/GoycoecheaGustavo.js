@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const GoycoecheaGustavoPage = () => (
   <>
     <Head>
-      <title>Goycoechea Gustavo</title>
+      <title>Goycoechea Gustavo | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Goycoechea Gustavo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

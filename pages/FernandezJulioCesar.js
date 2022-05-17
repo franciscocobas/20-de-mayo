@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const FernandezJulioCesarPage = () => (
   <>
     <Head>
-      <title>Fernandez Julio Cesar</title>
+      <title>Fernandez Julio Cesar | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Fernandez Julio Cesar | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

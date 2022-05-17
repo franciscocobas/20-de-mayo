@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const AltarmiranoRicardoPage = () => (
   <>
     <Head>
-      <title>Altarmirano Ricardo</title>
+      <title>Altarmirano Ricardo | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Altarmirano Ricardo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const DeGregorioOscarPage = () => (
   <>
     <Head>
-      <title>De Gregorio Oscar</title>
+      <title>De Gregorio Oscar | 27ᵃ marcha del silencio</title>
       <meta name="description" content="De Gregorio Oscar | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

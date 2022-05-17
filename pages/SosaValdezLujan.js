@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const SosaValdezLujanPage = () => (
   <>
     <Head>
-      <title>Sosa Valdez Lujan</title>
+      <title>Sosa Valdez Lujan | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Sosa Valdez Lujan | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const PaittaAntonioOmarPage = () => (
   <>
     <Head>
-      <title>Paitta Antonio Omar</title>
+      <title>Paitta Antonio Omar | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Paitta Antonio Omar | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

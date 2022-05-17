@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const SerraHeliosPage = () => (
   <>
     <Head>
-      <title>Serra Helios</title>
+      <title>Serra Helios | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Serra Helios | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

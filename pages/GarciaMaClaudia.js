@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const GarciaMaClaudiaPage = () => (
   <>
     <Head>
-      <title>Garcia Ma Claudia</title>
+      <title>Garcia Ma Claudia | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Garcia Ma Claudia | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

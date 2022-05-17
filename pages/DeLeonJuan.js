@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const DeLeonJuanPage = () => (
   <>
     <Head>
-      <title>De Leon Juan</title>
+      <title>De Leon Juan | 27ᵃ marcha del silencio</title>
       <meta name="description" content="De Leon Juan | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

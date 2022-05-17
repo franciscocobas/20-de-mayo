@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const IbarbiaMaAngelicaPage = () => (
   <>
     <Head>
-      <title>Ibarbia Ma Angelica</title>
+      <title>Ibarbia Ma Angelica | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Ibarbia Ma Angelica | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

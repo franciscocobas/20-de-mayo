@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const DeGouveiaGracielaPage = () => (
   <>
     <Head>
-      <title>De Gouveia Graciela</title>
+      <title>De Gouveia Graciela | 27ᵃ marcha del silencio</title>
       <meta name="description" content="De Gouveia Graciela | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

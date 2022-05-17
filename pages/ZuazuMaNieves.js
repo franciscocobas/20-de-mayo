@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const ZuazuMaNievesPage = () => (
   <>
     <Head>
-      <title>Zuazu Ma Nieves</title>
+      <title>Zuazu Ma Nieves | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Zuazu Ma Nieves | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

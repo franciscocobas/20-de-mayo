@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const LuppiMaryPage = () => (
   <>
     <Head>
-      <title>Luppi Mary</title>
+      <title>Luppi Mary | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Luppi Mary | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const PeluaJoseLuisPage = () => (
   <>
     <Head>
-      <title>Pelua Jose Luis</title>
+      <title>Pelua Jose Luis | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Pelua Jose Luis | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

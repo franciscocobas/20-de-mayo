@@ -16,7 +16,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const ${cammelCaseName}Page = () => (
   <>
     <Head>
-      <title>${onlyNameWithSpaces}</title>
+      <title>${onlyNameWithSpaces} | 27ᵃ marcha del silencio</title>
       <meta name="description" content="${onlyNameWithSpaces} | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

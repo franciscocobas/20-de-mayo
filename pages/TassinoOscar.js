@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const TassinoOscarPage = () => (
   <>
     <Head>
-      <title>Tassino Oscar</title>
+      <title>Tassino Oscar | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Tassino Oscar | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>

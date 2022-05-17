@@ -11,7 +11,7 @@ import BioData from '../public/images/icons/person_data_btn.svg';
 const BurguenoAdaMargaretPage = () => (
   <>
     <Head>
-      <title>Burgueno Ada Margaret</title>
+      <title>Burgueno Ada Margaret | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Burgueno Ada Margaret | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
