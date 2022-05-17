@@ -21,7 +21,9 @@ const EpelbaumClaudioPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={EpelbaumClaudio} alt="Foto de Epelbaum Claudio" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={EpelbaumClaudio} alt="Foto de Epelbaum Claudio" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={EpelbaumClaudio.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/EPELBAUM%20SLOTOPOLSKY%2C%20Claudio%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

@@ -21,7 +21,9 @@ const GoncalvezJorgePage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={GoncalvezJorge} alt="Foto de Goncalvez Jorge" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={GoncalvezJorge} alt="Foto de Goncalvez Jorge" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={GoncalvezJorge.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/GONCALVES%20BUSCONI%2C%20Jorge%20Felisberto%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

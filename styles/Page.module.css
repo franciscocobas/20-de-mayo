@@ -9,6 +9,7 @@
   background: white;
   max-width: 1100px;
   margin: 0 auto;
+  height: 5rem;
 }
 
 .header img {
@@ -32,15 +33,31 @@
 }
 
 .main .downloadContainer {
-  margin-top: 2.5rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: space-between;
+  height: 3rem;
 }
 
 @media (min-width: 576px) {
   .main .downloadContainer {
-    justify-content: flex-start;
+    margin-top: 2.5rem;
+  }
+}
+
+.main .mainImageContainer {
+  height: 83vh;
+  position: relative;
+}
+
+.main .mainImageContainer img {
+  object-fit: contain;
+}
+
+@media (min-width: 576px) {
+  .main .downloadContainer {
+    justify-content: center;
   }
   .main .downloadContainer a {
     margin-right: 1rem;

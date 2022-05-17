@@ -21,7 +21,9 @@ const GattiAdrianaPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={GattiAdriana} alt="Foto de Gatti Adriana" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={GattiAdriana} alt="Foto de Gatti Adriana" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={GattiAdriana.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/GATTI%20CASAL%2C%20Adriana%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

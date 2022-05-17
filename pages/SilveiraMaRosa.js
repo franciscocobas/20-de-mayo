@@ -21,7 +21,9 @@ const SilveiraMaRosaPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={SilveiraMaRosa} alt="Foto de Silveira Ma Rosa" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={SilveiraMaRosa} alt="Foto de Silveira Ma Rosa" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={SilveiraMaRosa.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/SILVEIRA%20GRAMONT%2C%20Mar%C3%ADa%20Rosa%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

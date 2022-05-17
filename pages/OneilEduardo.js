@@ -21,7 +21,9 @@ const OneilEduardoPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={OneilEduardo} alt="Foto de Oneil Eduardo" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={OneilEduardo} alt="Foto de Oneil Eduardo" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={OneilEduardo.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/O%C2%B4NEILL%20VEL%C3%81ZQUEZ%2C%20Heber%20Eduardo%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

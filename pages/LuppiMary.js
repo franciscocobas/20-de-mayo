@@ -21,7 +21,9 @@ const LuppiMaryPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={LuppiMary} alt="Foto de Luppi Mary" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={LuppiMary} alt="Foto de Luppi Mary" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={LuppiMary.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://sitiosdememoria.uy/sites/default/files/2020-03/LUPPI%20MAZZONE%2C%20Mary%20Norma%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

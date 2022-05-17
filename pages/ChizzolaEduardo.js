@@ -21,7 +21,9 @@ const ChizzolaEduardoPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={ChizzolaEduardo} alt="Foto de Chizzola Eduardo" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={ChizzolaEduardo} alt="Foto de Chizzola Eduardo" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={ChizzolaEduardo.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/CHIZZOLA%20CANO%20Eduardo%20Efrain%20Ficha%20accesible_0.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

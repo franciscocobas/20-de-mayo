@@ -21,7 +21,9 @@ const MartinezJorgePage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={MartinezJorge} alt="Foto de Martinez Jorge" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={MartinezJorge} alt="Foto de Martinez Jorge" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={MartinezJorge.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://sitiosdememoria.uy/sites/default/files/2020-02/MART%c3%8dNEZ%20HORMINOGUEZ,%20Jorge%20Hugo%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

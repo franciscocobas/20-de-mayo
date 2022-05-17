@@ -21,7 +21,9 @@ const SanjurjoAmeliaPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={SanjurjoAmelia} alt="Foto de Sanjurjo Amelia" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={SanjurjoAmelia} alt="Foto de Sanjurjo Amelia" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={SanjurjoAmelia.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/SANJURJO%20CASAL%2C%20Amelia%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

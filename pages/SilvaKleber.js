@@ -21,7 +21,9 @@ const SilvaKleberPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={SilvaKleber} alt="Foto de Silva Kleber" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={SilvaKleber} alt="Foto de Silva Kleber" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={SilvaKleber.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/SILVA%20IRIBARNEGARAY%2C%20Kl%C3%A9ber%20%28Hermano%20Mauricio%29%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

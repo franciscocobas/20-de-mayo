@@ -21,7 +21,9 @@ const RioMiguelAngelPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={RioMiguelAngel} alt="Foto de Rio Miguel Angel" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={RioMiguelAngel} alt="Foto de Rio Miguel Angel" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={RioMiguelAngel.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/R%C3%8DO%20CASAS%2C%20Miguel%20%C3%81ngel%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

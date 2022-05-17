@@ -21,7 +21,9 @@ const GiordanoHectorPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={GiordanoHector} alt="Foto de Giordano Hector" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={GiordanoHector} alt="Foto de Giordano Hector" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={GiordanoHector.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/GIORDANO%20CORTAZZO%2C%20H%C3%A9ctor%20Orlando.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

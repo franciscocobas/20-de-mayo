@@ -21,7 +21,9 @@ const MartinezJosePage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={MartinezJose} alt="Foto de Martinez Jose" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={MartinezJose} alt="Foto de Martinez Jose" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={MartinezJose.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://sitiosdememoria.uy/sites/default/files/2020-02/MART%C3%8DNEZ%20SU%C3%81REZ%2C%20Jos%C3%A9%20Mario%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

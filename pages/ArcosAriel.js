@@ -21,7 +21,9 @@ const ArcosArielPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={ArcosAriel} alt="Foto de Arcos Ariel" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={ArcosAriel} alt="Foto de Arcos Ariel" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={ArcosAriel.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/ARCOS%20LATORRE%2C%20Ariel%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

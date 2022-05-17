@@ -21,7 +21,9 @@ const ArocenaMarcosPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={ArocenaMarcos} alt="Foto de Arocena Marcos" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={ArocenaMarcos} alt="Foto de Arocena Marcos" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={ArocenaMarcos.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/AROCENA%20da%20SILVA%20GUIMARAES%2C%20Marcos%20Basilio%20Ficha%202018%20accesible_0.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

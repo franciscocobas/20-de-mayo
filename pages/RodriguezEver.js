@@ -21,7 +21,9 @@ const RodriguezEverPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={RodriguezEver} alt="Foto de Rodriguez Ever" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={RodriguezEver} alt="Foto de Rodriguez Ever" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={RodriguezEver.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://sitiosdememoria.uy/sites/default/files/2019-11/RODRIGUEZ%20SANABRIA%2C%20Ever%20accesible._0.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

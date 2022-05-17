@@ -21,7 +21,9 @@ const MontesdeOcaOterminPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={MontesdeOcaOtermin} alt="Foto de Montes de Oca Otermin" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={MontesdeOcaOtermin} alt="Foto de Montes de Oca Otermin" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={MontesdeOcaOtermin.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://sitiosdememoria.uy/sites/default/files/2019-11/MONTES%20DE%20OCA%20DOMENECH%2C%20Oterm%C3%ADn%20Laureano%20Ficha%20accesible_0.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

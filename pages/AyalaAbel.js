@@ -21,7 +21,9 @@ const AyalaAbelPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={AyalaAbel} alt="Foto de Ayala Abel" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={AyalaAbel} alt="Foto de Ayala Abel" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={AyalaAbel.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/AYALA%20%C3%81LVEZ%2C%20Ad%C3%A1n%20Abel%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

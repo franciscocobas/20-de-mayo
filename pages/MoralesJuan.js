@@ -21,7 +21,9 @@ const MoralesJuanPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={MoralesJuan} alt="Foto de Morales Juan" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={MoralesJuan} alt="Foto de Morales Juan" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={MoralesJuan.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/MORALES%20von%20PIEVERLING%2C%20Juan%20Miguel%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

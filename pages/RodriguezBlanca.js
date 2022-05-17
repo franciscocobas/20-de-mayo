@@ -21,7 +21,9 @@ const RodriguezBlancaPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={RodriguezBlanca} alt="Foto de Rodriguez Blanca" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={RodriguezBlanca} alt="Foto de Rodriguez Blanca" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={RodriguezBlanca.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/RODR%C3%8DGUEZ%2C%20Blanca%20Margarita%20accesible..pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

@@ -21,7 +21,9 @@ const OsorioPabloPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={OsorioPablo} alt="Foto de Osorio Pablo" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={OsorioPablo} alt="Foto de Osorio Pablo" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={OsorioPablo.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="http://www.desaparecidos.org/arg/victimas/osoriop/" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>

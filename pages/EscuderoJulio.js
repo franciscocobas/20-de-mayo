@@ -21,7 +21,9 @@ const EscuderoJulioPage = () => (
       <h1>IMÁGENES DEL SILENCIO</h1>
     </header>
     <main className={styles.main}>
-      <Image placeholder="blur" src={EscuderoJulio} alt="Foto de Escudero Julio" />
+      <div className={styles.mainImageContainer}>
+        <Image layout="fill" placeholder="blur" src={EscuderoJulio} alt="Foto de Escudero Julio" />
+      </div>
       <div className={styles.downloadContainer}>
         <a href={EscuderoJulio.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
         <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/ESCUDERO%20MATTOS%2C%20Julio%20Lorenzo%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
