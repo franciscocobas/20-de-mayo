@@ -12,7 +12,7 @@ const ArcosArielPage = () => (
   <>
     <Head>
       <title>Arcos Ariel</title>
-      <meta name="description" content="Foto y Arcos Ariel"/>
+      <meta name="description" content="Arcos Ariel | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const LiberoffManuelPage = () => (
   <>
     <Head>
       <title>Liberoff Manuel</title>
-      <meta name="description" content="Foto y Liberoff Manuel"/>
+      <meta name="description" content="Liberoff Manuel | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

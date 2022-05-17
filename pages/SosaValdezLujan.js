@@ -12,7 +12,7 @@ const SosaValdezLujanPage = () => (
   <>
     <Head>
       <title>Sosa Valdez Lujan</title>
-      <meta name="description" content="Foto y Sosa Valdez Lujan"/>
+      <meta name="description" content="Sosa Valdez Lujan | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

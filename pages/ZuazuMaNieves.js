@@ -12,7 +12,7 @@ const ZuazuMaNievesPage = () => (
   <>
     <Head>
       <title>Zuazu Ma Nieves</title>
-      <meta name="description" content="Foto y Zuazu Ma Nieves"/>
+      <meta name="description" content="Zuazu Ma Nieves | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

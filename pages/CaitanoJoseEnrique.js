@@ -12,7 +12,7 @@ const CaitanoJoseEnriquePage = () => (
   <>
     <Head>
       <title>Caitano Jose Enrique</title>
-      <meta name="description" content="Foto y Caitano Jose Enrique"/>
+      <meta name="description" content="Caitano Jose Enrique | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const QuinterosElenaPage = () => (
   <>
     <Head>
       <title>Quinteros Elena</title>
-      <meta name="description" content="Foto y Quinteros Elena"/>
+      <meta name="description" content="Quinteros Elena | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

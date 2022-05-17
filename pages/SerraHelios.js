@@ -12,7 +12,7 @@ const SerraHeliosPage = () => (
   <>
     <Head>
       <title>Serra Helios</title>
-      <meta name="description" content="Foto y Serra Helios"/>
+      <meta name="description" content="Serra Helios | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

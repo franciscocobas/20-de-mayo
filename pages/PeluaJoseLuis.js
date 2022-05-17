@@ -12,7 +12,7 @@ const PeluaJoseLuisPage = () => (
   <>
     <Head>
       <title>Pelua Jose Luis</title>
-      <meta name="description" content="Foto y Pelua Jose Luis"/>
+      <meta name="description" content="Pelua Jose Luis | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

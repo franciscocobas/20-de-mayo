@@ -12,7 +12,7 @@ const PovaschukJuanPage = () => (
   <>
     <Head>
       <title>Povaschuk Juan</title>
-      <meta name="description" content="Foto y Povaschuk Juan"/>
+      <meta name="description" content="Povaschuk Juan | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

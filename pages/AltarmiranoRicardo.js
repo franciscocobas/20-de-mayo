@@ -12,7 +12,7 @@ const AltarmiranoRicardoPage = () => (
   <>
     <Head>
       <title>Altarmirano Ricardo</title>
-      <meta name="description" content="Foto y Altarmirano Ricardo"/>
+      <meta name="description" content="Altarmirano Ricardo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

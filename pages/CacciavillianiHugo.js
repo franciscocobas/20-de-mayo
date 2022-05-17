@@ -12,7 +12,7 @@ const CacciavillianiHugoPage = () => (
   <>
     <Head>
       <title>Cacciavilliani Hugo</title>
-      <meta name="description" content="Foto y Cacciavilliani Hugo"/>
+      <meta name="description" content="Cacciavilliani Hugo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

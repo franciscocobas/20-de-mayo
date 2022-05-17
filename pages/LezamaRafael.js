@@ -12,7 +12,7 @@ const LezamaRafaelPage = () => (
   <>
     <Head>
       <title>Lezama Rafael</title>
-      <meta name="description" content="Foto y Lezama Rafael"/>
+      <meta name="description" content="Lezama Rafael | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

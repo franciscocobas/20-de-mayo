@@ -12,7 +12,7 @@ const EpelbaumLilaPage = () => (
   <>
     <Head>
       <title>Epelbaum Lila</title>
-      <meta name="description" content="Foto y Epelbaum Lila"/>
+      <meta name="description" content="Epelbaum Lila | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

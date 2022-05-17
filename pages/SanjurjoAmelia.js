@@ -12,7 +12,7 @@ const SanjurjoAmeliaPage = () => (
   <>
     <Head>
       <title>Sanjurjo Amelia</title>
-      <meta name="description" content="Foto y Sanjurjo Amelia"/>
+      <meta name="description" content="Sanjurjo Amelia | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

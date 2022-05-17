@@ -12,7 +12,7 @@ const MoralesJuanPage = () => (
   <>
     <Head>
       <title>Morales Juan</title>
-      <meta name="description" content="Foto y Morales Juan"/>
+      <meta name="description" content="Morales Juan | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

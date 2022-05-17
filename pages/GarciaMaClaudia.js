@@ -12,7 +12,7 @@ const GarciaMaClaudiaPage = () => (
   <>
     <Head>
       <title>Garcia Ma Claudia</title>
-      <meta name="description" content="Foto y Garcia Ma Claudia"/>
+      <meta name="description" content="Garcia Ma Claudia | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

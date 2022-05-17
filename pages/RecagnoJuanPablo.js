@@ -12,7 +12,7 @@ const RecagnoJuanPabloPage = () => (
   <>
     <Head>
       <title>Recagno Juan Pablo</title>
-      <meta name="description" content="Foto y Recagno Juan Pablo"/>
+      <meta name="description" content="Recagno Juan Pablo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

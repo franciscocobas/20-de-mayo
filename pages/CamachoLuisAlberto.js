@@ -12,7 +12,7 @@ const CamachoLuisAlbertoPage = () => (
   <>
     <Head>
       <title>Camacho Luis Alberto</title>
-      <meta name="description" content="Foto y Camacho Luis Alberto"/>
+      <meta name="description" content="Camacho Luis Alberto | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

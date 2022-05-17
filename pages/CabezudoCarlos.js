@@ -12,7 +12,7 @@ const CabezudoCarlosPage = () => (
   <>
     <Head>
       <title>Cabezudo Carlos</title>
-      <meta name="description" content="Foto y Cabezudo Carlos"/>
+      <meta name="description" content="Cabezudo Carlos | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

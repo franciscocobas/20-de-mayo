@@ -12,7 +12,7 @@ const FontelaAlbertoPage = () => (
   <>
     <Head>
       <title>Fontela Alberto</title>
-      <meta name="description" content="Foto y Fontela Alberto"/>
+      <meta name="description" content="Fontela Alberto | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const MicheffJuanPage = () => (
   <>
     <Head>
       <title>Micheff Juan</title>
-      <meta name="description" content="Foto y Micheff Juan"/>
+      <meta name="description" content="Micheff Juan | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

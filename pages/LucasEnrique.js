@@ -12,7 +12,7 @@ const LucasEnriquePage = () => (
   <>
     <Head>
       <title>Lucas Enrique</title>
-      <meta name="description" content="Foto y Lucas Enrique"/>
+      <meta name="description" content="Lucas Enrique | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

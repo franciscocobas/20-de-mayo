@@ -12,7 +12,7 @@ const BentancourWalnerPage = () => (
   <>
     <Head>
       <title>Bentancour Walner</title>
-      <meta name="description" content="Foto y Bentancour Walner"/>
+      <meta name="description" content="Bentancour Walner | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

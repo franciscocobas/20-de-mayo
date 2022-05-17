@@ -12,7 +12,7 @@ const GattiGerardoPage = () => (
   <>
     <Head>
       <title>Gatti Gerardo</title>
-      <meta name="description" content="Foto y Gatti Gerardo"/>
+      <meta name="description" content="Gatti Gerardo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

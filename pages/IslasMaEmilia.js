@@ -12,7 +12,7 @@ const IslasMaEmiliaPage = () => (
   <>
     <Head>
       <title>Islas Ma Emilia</title>
-      <meta name="description" content="Foto y Islas Ma Emilia"/>
+      <meta name="description" content="Islas Ma Emilia | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

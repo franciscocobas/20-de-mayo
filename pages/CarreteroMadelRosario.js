@@ -12,7 +12,7 @@ const CarreteroMadelRosarioPage = () => (
   <>
     <Head>
       <title>Carretero Ma del Rosario</title>
-      <meta name="description" content="Foto y Carretero Ma del Rosario"/>
+      <meta name="description" content="Carretero Ma del Rosario | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

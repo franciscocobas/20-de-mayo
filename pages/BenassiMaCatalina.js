@@ -12,7 +12,7 @@ const BenassiMaCatalinaPage = () => (
   <>
     <Head>
       <title>Benassi Ma Catalina</title>
-      <meta name="description" content="Foto y Benassi Ma Catalina"/>
+      <meta name="description" content="Benassi Ma Catalina | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

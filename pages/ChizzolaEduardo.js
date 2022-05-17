@@ -12,7 +12,7 @@ const ChizzolaEduardoPage = () => (
   <>
     <Head>
       <title>Chizzola Eduardo</title>
-      <meta name="description" content="Foto y Chizzola Eduardo"/>
+      <meta name="description" content="Chizzola Eduardo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

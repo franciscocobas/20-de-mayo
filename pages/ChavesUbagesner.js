@@ -12,7 +12,7 @@ const ChavesUbagesnerPage = () => (
   <>
     <Head>
       <title>Chaves Ubagesner</title>
-      <meta name="description" content="Foto y Chaves Ubagesner"/>
+      <meta name="description" content="Chaves Ubagesner | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

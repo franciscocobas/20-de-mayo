@@ -12,7 +12,7 @@ const GrinsponMonicaPage = () => (
   <>
     <Head>
       <title>Grinspon Monica</title>
-      <meta name="description" content="Foto y Grinspon Monica"/>
+      <meta name="description" content="Grinspon Monica | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

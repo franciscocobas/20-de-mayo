@@ -12,7 +12,7 @@ const RainaCarlosPage = () => (
   <>
     <Head>
       <title>Raina Carlos</title>
-      <meta name="description" content="Foto y Raina Carlos"/>
+      <meta name="description" content="Raina Carlos | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

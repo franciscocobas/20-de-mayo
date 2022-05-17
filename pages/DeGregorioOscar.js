@@ -12,7 +12,7 @@ const DeGregorioOscarPage = () => (
   <>
     <Head>
       <title>De Gregorio Oscar</title>
-      <meta name="description" content="Foto y De Gregorio Oscar"/>
+      <meta name="description" content="De Gregorio Oscar | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const BriebaJuanManuelPage = () => (
   <>
     <Head>
       <title>Brieba Juan Manuel</title>
-      <meta name="description" content="Foto y Brieba Juan Manuel"/>
+      <meta name="description" content="Brieba Juan Manuel | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

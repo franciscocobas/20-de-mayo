@@ -12,7 +12,7 @@ const GonzalezNelsonPage = () => (
   <>
     <Head>
       <title>Gonzalez Nelson</title>
-      <meta name="description" content="Foto y Gonzalez Nelson"/>
+      <meta name="description" content="Gonzalez Nelson | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

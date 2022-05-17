@@ -12,7 +12,7 @@ const MirandaUranoPage = () => (
   <>
     <Head>
       <title>Miranda Urano</title>
-      <meta name="description" content="Foto y Miranda Urano"/>
+      <meta name="description" content="Miranda Urano | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const CendanJuanAngelPage = () => (
   <>
     <Head>
       <title>Cendan Juan Angel</title>
-      <meta name="description" content="Foto y Cendan Juan Angel"/>
+      <meta name="description" content="Cendan Juan Angel | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

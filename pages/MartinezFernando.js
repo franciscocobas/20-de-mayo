@@ -12,7 +12,7 @@ const MartinezFernandoPage = () => (
   <>
     <Head>
       <title>Martinez Fernando</title>
-      <meta name="description" content="Foto y Martinez Fernando"/>
+      <meta name="description" content="Martinez Fernando | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

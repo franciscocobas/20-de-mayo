@@ -12,7 +12,7 @@ const WurmWilhelmPage = () => (
   <>
     <Head>
       <title>Wurm Wilhelm</title>
-      <meta name="description" content="Foto y Wurm Wilhelm"/>
+      <meta name="description" content="Wurm Wilhelm | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

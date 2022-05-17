@@ -12,7 +12,7 @@ const LerenaElenaPage = () => (
   <>
     <Head>
       <title>Lerena Elena</title>
-      <meta name="description" content="Foto y Lerena Elena"/>
+      <meta name="description" content="Lerena Elena | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const SenaOlivarPage = () => (
   <>
     <Head>
       <title>Sena Olivar</title>
-      <meta name="description" content="Foto y Sena Olivar"/>
+      <meta name="description" content="Sena Olivar | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

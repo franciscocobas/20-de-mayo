@@ -12,7 +12,7 @@ const OneilEduardoPage = () => (
   <>
     <Head>
       <title>Oneil Eduardo</title>
-      <meta name="description" content="Foto y Oneil Eduardo"/>
+      <meta name="description" content="Oneil Eduardo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

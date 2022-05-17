@@ -12,7 +12,7 @@ const CubasOmarPage = () => (
   <>
     <Head>
       <title>Cubas Omar</title>
-      <meta name="description" content="Foto y Cubas Omar"/>
+      <meta name="description" content="Cubas Omar | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

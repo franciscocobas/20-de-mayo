@@ -12,7 +12,7 @@ const BarrientosCarolinaPage = () => (
   <>
     <Head>
       <title>Barrientos Carolina</title>
-      <meta name="description" content="Foto y Barrientos Carolina"/>
+      <meta name="description" content="Barrientos Carolina | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

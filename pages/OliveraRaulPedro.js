@@ -12,7 +12,7 @@ const OliveraRaulPedroPage = () => (
   <>
     <Head>
       <title>Olivera Raul Pedro</title>
-      <meta name="description" content="Foto y Olivera Raul Pedro"/>
+      <meta name="description" content="Olivera Raul Pedro | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

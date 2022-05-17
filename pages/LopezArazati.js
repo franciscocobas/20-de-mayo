@@ -12,7 +12,7 @@ const LopezArazatiPage = () => (
   <>
     <Head>
       <title>Lopez Arazati</title>
-      <meta name="description" content="Foto y Lopez Arazati"/>
+      <meta name="description" content="Lopez Arazati | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

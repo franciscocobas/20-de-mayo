@@ -17,7 +17,7 @@ const ${cammelCaseName}Page = () => (
   <>
     <Head>
       <title>${onlyNameWithSpaces}</title>
-      <meta name="description" content="Foto y ${onlyNameWithSpaces}"/>
+      <meta name="description" content="${onlyNameWithSpaces} | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

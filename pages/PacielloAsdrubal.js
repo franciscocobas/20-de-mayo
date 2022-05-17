@@ -12,7 +12,7 @@ const PacielloAsdrubalPage = () => (
   <>
     <Head>
       <title>Paciello Asdrubal</title>
-      <meta name="description" content="Foto y Paciello Asdrubal"/>
+      <meta name="description" content="Paciello Asdrubal | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

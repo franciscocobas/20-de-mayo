@@ -12,7 +12,7 @@ const StromanAdolfoPage = () => (
   <>
     <Head>
       <title>Stroman Adolfo</title>
-      <meta name="description" content="Foto y Stroman Adolfo"/>
+      <meta name="description" content="Stroman Adolfo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

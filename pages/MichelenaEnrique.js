@@ -12,7 +12,7 @@ const MichelenaEnriquePage = () => (
   <>
     <Head>
       <title>Michelena Enrique</title>
-      <meta name="description" content="Foto y Michelena Enrique"/>
+      <meta name="description" content="Michelena Enrique | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

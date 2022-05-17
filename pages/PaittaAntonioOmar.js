@@ -12,7 +12,7 @@ const PaittaAntonioOmarPage = () => (
   <>
     <Head>
       <title>Paitta Antonio Omar</title>
-      <meta name="description" content="Foto y Paitta Antonio Omar"/>
+      <meta name="description" content="Paitta Antonio Omar | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

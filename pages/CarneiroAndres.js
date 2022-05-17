@@ -12,7 +12,7 @@ const CarneiroAndresPage = () => (
   <>
     <Head>
       <title>Carneiro Andres</title>
-      <meta name="description" content="Foto y Carneiro Andres"/>
+      <meta name="description" content="Carneiro Andres | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

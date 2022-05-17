@@ -12,7 +12,7 @@ const CastroJulioPage = () => (
   <>
     <Head>
       <title>Castro Julio</title>
-      <meta name="description" content="Foto y Castro Julio"/>
+      <meta name="description" content="Castro Julio | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

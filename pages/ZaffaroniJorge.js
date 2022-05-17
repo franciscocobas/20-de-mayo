@@ -12,7 +12,7 @@ const ZaffaroniJorgePage = () => (
   <>
     <Head>
       <title>Zaffaroni Jorge</title>
-      <meta name="description" content="Foto y Zaffaroni Jorge"/>
+      <meta name="description" content="Zaffaroni Jorge | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

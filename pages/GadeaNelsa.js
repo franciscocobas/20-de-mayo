@@ -12,7 +12,7 @@ const GadeaNelsaPage = () => (
   <>
     <Head>
       <title>Gadea Nelsa</title>
-      <meta name="description" content="Foto y Gadea Nelsa"/>
+      <meta name="description" content="Gadea Nelsa | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

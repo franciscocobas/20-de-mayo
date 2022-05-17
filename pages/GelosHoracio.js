@@ -12,7 +12,7 @@ const GelosHoracioPage = () => (
   <>
     <Head>
       <title>Gelos Horacio</title>
-      <meta name="description" content="Foto y Gelos Horacio"/>
+      <meta name="description" content="Gelos Horacio | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

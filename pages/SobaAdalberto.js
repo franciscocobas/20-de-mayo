@@ -12,7 +12,7 @@ const SobaAdalbertoPage = () => (
   <>
     <Head>
       <title>Soba Adalberto</title>
-      <meta name="description" content="Foto y Soba Adalberto"/>
+      <meta name="description" content="Soba Adalberto | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

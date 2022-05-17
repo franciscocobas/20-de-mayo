@@ -12,7 +12,7 @@ const RodriguezEverPage = () => (
   <>
     <Head>
       <title>Rodriguez Ever</title>
-      <meta name="description" content="Foto y Rodriguez Ever"/>
+      <meta name="description" content="Rodriguez Ever | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const TriasCeciliaPage = () => (
   <>
     <Head>
       <title>Trias Cecilia</title>
-      <meta name="description" content="Foto y Trias Cecilia"/>
+      <meta name="description" content="Trias Cecilia | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

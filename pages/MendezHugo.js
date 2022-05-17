@@ -12,7 +12,7 @@ const MendezHugoPage = () => (
   <>
     <Head>
       <title>Mendez Hugo</title>
-      <meta name="description" content="Foto y Mendez Hugo"/>
+      <meta name="description" content="Mendez Hugo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

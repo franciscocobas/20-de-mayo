@@ -12,7 +12,7 @@ const BurguenoAdaMargaretPage = () => (
   <>
     <Head>
       <title>Burgueno Ada Margaret</title>
-      <meta name="description" content="Foto y Burgueno Ada Margaret"/>
+      <meta name="description" content="Burgueno Ada Margaret | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

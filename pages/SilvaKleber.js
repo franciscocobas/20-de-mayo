@@ -12,7 +12,7 @@ const SilvaKleberPage = () => (
   <>
     <Head>
       <title>Silva Kleber</title>
-      <meta name="description" content="Foto y Silva Kleber"/>
+      <meta name="description" content="Silva Kleber | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

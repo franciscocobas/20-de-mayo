@@ -12,7 +12,7 @@ const KeimJosefinaPage = () => (
   <>
     <Head>
       <title>Keim Josefina</title>
-      <meta name="description" content="Foto y Keim Josefina"/>
+      <meta name="description" content="Keim Josefina | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

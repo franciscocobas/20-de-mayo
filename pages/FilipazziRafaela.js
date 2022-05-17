@@ -12,7 +12,7 @@ const FilipazziRafaelaPage = () => (
   <>
     <Head>
       <title>Filipazzi Rafaela</title>
-      <meta name="description" content="Foto y Filipazzi Rafaela"/>
+      <meta name="description" content="Filipazzi Rafaela | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const CascoYolandaPage = () => (
   <>
     <Head>
       <title>Casco Yolanda</title>
-      <meta name="description" content="Foto y Casco Yolanda"/>
+      <meta name="description" content="Casco Yolanda | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

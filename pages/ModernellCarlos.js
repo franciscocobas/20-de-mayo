@@ -12,7 +12,7 @@ const ModernellCarlosPage = () => (
   <>
     <Head>
       <title>Modernell Carlos</title>
-      <meta name="description" content="Foto y Modernell Carlos"/>
+      <meta name="description" content="Modernell Carlos | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

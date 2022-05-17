@@ -12,7 +12,7 @@ const CastilloAtalivasPage = () => (
   <>
     <Head>
       <title>Castillo Atalivas</title>
-      <meta name="description" content="Foto y Castillo Atalivas"/>
+      <meta name="description" content="Castillo Atalivas | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

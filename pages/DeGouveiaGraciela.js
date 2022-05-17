@@ -12,7 +12,7 @@ const DeGouveiaGracielaPage = () => (
   <>
     <Head>
       <title>De Gouveia Graciela</title>
-      <meta name="description" content="Foto y De Gouveia Graciela"/>
+      <meta name="description" content="De Gouveia Graciela | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

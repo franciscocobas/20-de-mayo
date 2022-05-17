@@ -12,7 +12,7 @@ const GoycoecheaGustavoPage = () => (
   <>
     <Head>
       <title>Goycoechea Gustavo</title>
-      <meta name="description" content="Foto y Goycoechea Gustavo"/>
+      <meta name="description" content="Goycoechea Gustavo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

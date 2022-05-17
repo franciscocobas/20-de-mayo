@@ -12,7 +12,7 @@ const CanteroEdisonPage = () => (
   <>
     <Head>
       <title>Cantero Edison</title>
-      <meta name="description" content="Foto y Cantero Edison"/>
+      <meta name="description" content="Cantero Edison | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

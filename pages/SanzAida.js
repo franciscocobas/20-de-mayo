@@ -12,7 +12,7 @@ const SanzAidaPage = () => (
   <>
     <Head>
       <title>Sanz Aida</title>
-      <meta name="description" content="Foto y Sanz Aida"/>
+      <meta name="description" content="Sanz Aida | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

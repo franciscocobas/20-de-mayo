@@ -12,7 +12,7 @@ const AguirreMaRosaPage = () => (
   <>
     <Head>
       <title>Aguirre Ma Rosa</title>
-      <meta name="description" content="Foto y Aguirre Ma Rosa"/>
+      <meta name="description" content="Aguirre Ma Rosa | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

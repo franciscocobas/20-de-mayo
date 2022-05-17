@@ -12,7 +12,7 @@ const SeveroAryPage = () => (
   <>
     <Head>
       <title>Severo Ary</title>
-      <meta name="description" content="Foto y Severo Ary"/>
+      <meta name="description" content="Severo Ary | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

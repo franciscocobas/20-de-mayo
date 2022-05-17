@@ -12,7 +12,7 @@ const FernandezJulioCesarPage = () => (
   <>
     <Head>
       <title>Fernandez Julio Cesar</title>
-      <meta name="description" content="Foto y Fernandez Julio Cesar"/>
+      <meta name="description" content="Fernandez Julio Cesar | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

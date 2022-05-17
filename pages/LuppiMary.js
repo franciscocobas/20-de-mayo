@@ -12,7 +12,7 @@ const LuppiMaryPage = () => (
   <>
     <Head>
       <title>Luppi Mary</title>
-      <meta name="description" content="Foto y Luppi Mary"/>
+      <meta name="description" content="Luppi Mary | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

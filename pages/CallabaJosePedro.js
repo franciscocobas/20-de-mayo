@@ -12,7 +12,7 @@ const CallabaJosePedroPage = () => (
   <>
     <Head>
       <title>Callaba Jose Pedro</title>
-      <meta name="description" content="Foto y Callaba Jose Pedro"/>
+      <meta name="description" content="Callaba Jose Pedro | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

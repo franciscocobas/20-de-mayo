@@ -12,7 +12,7 @@ const CabreraAryPage = () => (
   <>
     <Head>
       <title>Cabrera Ary</title>
-      <meta name="description" content="Foto y Cabrera Ary"/>
+      <meta name="description" content="Cabrera Ary | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const BarbozaJoseLuisPage = () => (
   <>
     <Head>
       <title>Barboza Jose Luis</title>
-      <meta name="description" content="Foto y Barboza Jose Luis"/>
+      <meta name="description" content="Barboza Jose Luis | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const JulienMarioPage = () => (
   <>
     <Head>
       <title>Julien Mario</title>
-      <meta name="description" content="Foto y Julien Mario"/>
+      <meta name="description" content="Julien Mario | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

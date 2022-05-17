@@ -12,7 +12,7 @@ const HobbasLourdesPage = () => (
   <>
     <Head>
       <title>Hobbas Lourdes</title>
-      <meta name="description" content="Foto y Hobbas Lourdes"/>
+      <meta name="description" content="Hobbas Lourdes | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

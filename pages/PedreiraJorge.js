@@ -12,7 +12,7 @@ const PedreiraJorgePage = () => (
   <>
     <Head>
       <title>Pedreira Jorge</title>
-      <meta name="description" content="Foto y Pedreira Jorge"/>
+      <meta name="description" content="Pedreira Jorge | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

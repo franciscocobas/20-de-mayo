@@ -12,7 +12,7 @@ const LemaMiguelAngelPage = () => (
   <>
     <Head>
       <title>Lema Miguel Angel</title>
-      <meta name="description" content="Foto y Lema Miguel Angel"/>
+      <meta name="description" content="Lema Miguel Angel | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

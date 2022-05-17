@@ -12,7 +12,7 @@ const GonzalezLuisEduardoPage = () => (
   <>
     <Head>
       <title>Gonzalez Luis Eduardo</title>
-      <meta name="description" content="Foto y Gonzalez Luis Eduardo"/>
+      <meta name="description" content="Gonzalez Luis Eduardo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

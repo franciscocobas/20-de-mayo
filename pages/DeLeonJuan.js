@@ -12,7 +12,7 @@ const DeLeonJuanPage = () => (
   <>
     <Head>
       <title>De Leon Juan</title>
-      <meta name="description" content="Foto y De Leon Juan"/>
+      <meta name="description" content="De Leon Juan | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

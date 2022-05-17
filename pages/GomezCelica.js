@@ -12,7 +12,7 @@ const GomezCelicaPage = () => (
   <>
     <Head>
       <title>Gomez Celica</title>
-      <meta name="description" content="Foto y Gomez Celica"/>
+      <meta name="description" content="Gomez Celica | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const ErrandoneaJuanPabloPage = () => (
   <>
     <Head>
       <title>Errandonea Juan Pablo</title>
-      <meta name="description" content="Foto y Errandonea Juan Pablo"/>
+      <meta name="description" content="Errandonea Juan Pablo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const GarciaIleanaPage = () => (
   <>
     <Head>
       <title>Garcia Ileana</title>
-      <meta name="description" content="Foto y Garcia Ileana"/>
+      <meta name="description" content="Garcia Ileana | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

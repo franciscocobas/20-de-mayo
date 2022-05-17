@@ -12,7 +12,7 @@ const GambaroRaulPage = () => (
   <>
     <Head>
       <title>Gambaro Raul</title>
-      <meta name="description" content="Foto y Gambaro Raul"/>
+      <meta name="description" content="Gambaro Raul | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const GuazCarlosPage = () => (
   <>
     <Head>
       <title>Guaz Carlos</title>
-      <meta name="description" content="Foto y Guaz Carlos"/>
+      <meta name="description" content="Guaz Carlos | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

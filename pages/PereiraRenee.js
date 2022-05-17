@@ -12,7 +12,7 @@ const PereiraReneePage = () => (
   <>
     <Head>
       <title>Pereira Renee</title>
-      <meta name="description" content="Foto y Pereira Renee"/>
+      <meta name="description" content="Pereira Renee | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

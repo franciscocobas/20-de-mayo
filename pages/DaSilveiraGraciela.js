@@ -12,7 +12,7 @@ const DaSilveiraGracielaPage = () => (
   <>
     <Head>
       <title>Da Silveira Graciela</title>
-      <meta name="description" content="Foto y Da Silveira Graciela"/>
+      <meta name="description" content="Da Silveira Graciela | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

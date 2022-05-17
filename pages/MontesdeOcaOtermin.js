@@ -12,7 +12,7 @@ const MontesdeOcaOterminPage = () => (
   <>
     <Head>
       <title>Montes de Oca Otermin</title>
-      <meta name="description" content="Foto y Montes de Oca Otermin"/>
+      <meta name="description" content="Montes de Oca Otermin | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

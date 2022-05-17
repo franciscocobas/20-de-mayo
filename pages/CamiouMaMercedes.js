@@ -12,7 +12,7 @@ const CamiouMaMercedesPage = () => (
   <>
     <Head>
       <title>Camiou Ma Mercedes</title>
-      <meta name="description" content="Foto y Camiou Ma Mercedes"/>
+      <meta name="description" content="Camiou Ma Mercedes | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

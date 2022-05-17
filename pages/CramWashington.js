@@ -12,7 +12,7 @@ const CramWashingtonPage = () => (
   <>
     <Head>
       <title>Cram Washington</title>
-      <meta name="description" content="Foto y Cram Washington"/>
+      <meta name="description" content="Cram Washington | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

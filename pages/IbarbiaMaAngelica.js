@@ -12,7 +12,7 @@ const IbarbiaMaAngelicaPage = () => (
   <>
     <Head>
       <title>Ibarbia Ma Angelica</title>
-      <meta name="description" content="Foto y Ibarbia Ma Angelica"/>
+      <meta name="description" content="Ibarbia Ma Angelica | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

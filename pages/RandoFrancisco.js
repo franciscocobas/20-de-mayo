@@ -12,7 +12,7 @@ const RandoFranciscoPage = () => (
   <>
     <Head>
       <title>Rando Francisco</title>
-      <meta name="description" content="Foto y Rando Francisco"/>
+      <meta name="description" content="Rando Francisco | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

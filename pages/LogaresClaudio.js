@@ -12,7 +12,7 @@ const LogaresClaudioPage = () => (
   <>
     <Head>
       <title>Logares Claudio</title>
-      <meta name="description" content="Foto y Logares Claudio"/>
+      <meta name="description" content="Logares Claudio | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

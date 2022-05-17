@@ -12,7 +12,7 @@ const QueiroWashingtonPage = () => (
   <>
     <Head>
       <title>Queiro Washington</title>
-      <meta name="description" content="Foto y Queiro Washington"/>
+      <meta name="description" content="Queiro Washington | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

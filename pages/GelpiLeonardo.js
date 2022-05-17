@@ -12,7 +12,7 @@ const GelpiLeonardoPage = () => (
   <>
     <Head>
       <title>Gelpi Leonardo</title>
-      <meta name="description" content="Foto y Gelpi Leonardo"/>
+      <meta name="description" content="Gelpi Leonardo | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

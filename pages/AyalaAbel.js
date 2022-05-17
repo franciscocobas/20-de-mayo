@@ -12,7 +12,7 @@ const AyalaAbelPage = () => (
   <>
     <Head>
       <title>Ayala Abel</title>
-      <meta name="description" content="Foto y Ayala Abel"/>
+      <meta name="description" content="Ayala Abel | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

@@ -12,7 +12,7 @@ const GandaraElbaPage = () => (
   <>
     <Head>
       <title>Gandara Elba</title>
-      <meta name="description" content="Foto y Gandara Elba"/>
+      <meta name="description" content="Gandara Elba | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

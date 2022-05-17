@@ -12,7 +12,7 @@ const GoniDarioGilbertoPage = () => (
   <>
     <Head>
       <title>Goni Darío Gilberto</title>
-      <meta name="description" content="Foto y Goni Darío Gilberto"/>
+      <meta name="description" content="Goni Darío Gilberto | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

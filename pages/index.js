@@ -210,6 +210,7 @@ export default function Home() {
     <>
       <Head>
         <title>27ᵃ Marcha del Silencio</title>
+        <meta name="description" content="Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
       </Head>
       <header className={styles.header}>
         <div className={styles.headerContainer}>

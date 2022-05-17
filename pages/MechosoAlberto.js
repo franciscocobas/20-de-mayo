@@ -12,7 +12,7 @@ const MechosoAlbertoPage = () => (
   <>
     <Head>
       <title>Mechoso Alberto</title>
-      <meta name="description" content="Foto y Mechoso Alberto"/>
+      <meta name="description" content="Mechoso Alberto | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

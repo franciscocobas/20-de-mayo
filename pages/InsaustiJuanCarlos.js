@@ -12,7 +12,7 @@ const InsaustiJuanCarlosPage = () => (
   <>
     <Head>
       <title>Insausti Juan Carlos</title>
-      <meta name="description" content="Foto y Insausti Juan Carlos"/>
+      <meta name="description" content="Insausti Juan Carlos | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

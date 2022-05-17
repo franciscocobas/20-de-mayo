@@ -12,7 +12,7 @@ const BellizziAndresPage = () => (
   <>
     <Head>
       <title>Bellizzi Andres</title>
-      <meta name="description" content="Foto y Bellizzi Andres"/>
+      <meta name="description" content="Bellizzi Andres | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">

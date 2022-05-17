@@ -12,7 +12,7 @@ const QuinonesModestoPage = () => (
   <>
     <Head>
       <title>Quinones Modesto</title>
-      <meta name="description" content="Foto y Quinones Modesto"/>
+      <meta name="description" content="Quinones Modesto | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
