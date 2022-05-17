@@ -29,7 +29,25 @@
 @media (min-width: 576px) {
   .main {
     margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
   }
+}
+
+.main .mainImageContainer {
+  height: 83vh;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .main .mainImageContainer {
+    grid-column-start: 2;
+  }
+}
+
+.main .mainImageContainer img {
+  object-fit: contain;
 }
 
 .main .downloadContainer {
@@ -43,21 +61,7 @@
 @media (min-width: 576px) {
   .main .downloadContainer {
     margin-top: 2.5rem;
-  }
-}
-
-.main .mainImageContainer {
-  height: 83vh;
-  position: relative;
-}
-
-.main .mainImageContainer img {
-  object-fit: contain;
-}
-
-@media (min-width: 576px) {
-  .main .downloadContainer {
-    justify-content: center;
+    align-self: center;
   }
   .main .downloadContainer a {
     margin-right: 1rem;
