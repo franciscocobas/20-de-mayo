@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import DelFabroEduardo from '../public/images/Del Fabro Eduardo.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const DelFabroEduardoPage = () => (
   <>
     <Head>
       <title>Del Fabro Eduardo</title>
+      <meta name="description" content="Foto y Del Fabro Eduardo"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const DelFabroEduardoPage = () => (
       <Image placeholder="blur" src={DelFabroEduardo} alt="Foto de Del Fabro Eduardo" />
       <div className={styles.downloadContainer}>
         <a href={DelFabroEduardo.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/DEL%20FABRO%20de%20BERNARDI%2C%20Eduardo%20Jos%C3%A9%20Mar%C3%ADa%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

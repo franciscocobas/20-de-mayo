@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import CubasOmar from '../public/images/Cubas Omar.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const CubasOmarPage = () => (
   <>
     <Head>
       <title>Cubas Omar</title>
+      <meta name="description" content="Foto y Cubas Omar"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const CubasOmarPage = () => (
       <Image placeholder="blur" src={CubasOmar} alt="Foto de Cubas Omar" />
       <div className={styles.downloadContainer}>
         <a href={CubasOmar.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/CUBAS%20SIMONES%2C%20Omar%20Nelson%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

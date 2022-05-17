@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import GrinsponMonica from '../public/images/Grinspon Monica.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const GrinsponMonicaPage = () => (
   <>
     <Head>
       <title>Grinspon Monica</title>
+      <meta name="description" content="Foto y Grinspon Monica"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const GrinsponMonicaPage = () => (
       <Image placeholder="blur" src={GrinsponMonica} alt="Foto de Grinspon Monica" />
       <div className={styles.downloadContainer}>
         <a href={GrinsponMonica.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/GRINGSPON%20PAVON%2C%20M%C3%B3nica%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

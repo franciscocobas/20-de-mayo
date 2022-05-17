@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import GoncalvezJorge from '../public/images/Goncalvez Jorge.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const GoncalvezJorgePage = () => (
   <>
     <Head>
       <title>Goncalvez Jorge</title>
+      <meta name="description" content="Foto y Goncalvez Jorge"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const GoncalvezJorgePage = () => (
       <Image placeholder="blur" src={GoncalvezJorge} alt="Foto de Goncalvez Jorge" />
       <div className={styles.downloadContainer}>
         <a href={GoncalvezJorge.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/GONCALVES%20BUSCONI%2C%20Jorge%20Felisberto%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

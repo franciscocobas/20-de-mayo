@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import UrtasunJoseLuis from '../public/images/Urtasun Jose Luis.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const UrtasunJoseLuisPage = () => (
   <>
     <Head>
       <title>Urtasun Jose Luis</title>
+      <meta name="description" content="Foto y Urtasun Jose Luis"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const UrtasunJoseLuisPage = () => (
       <Image placeholder="blur" src={UrtasunJoseLuis} alt="Foto de Urtasun Jose Luis" />
       <div className={styles.downloadContainer}>
         <a href={UrtasunJoseLuis.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/URTASUN%20TERRA%2C%20Jos%C3%A9%20Luis%20ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

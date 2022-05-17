@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import QuinterosElena from '../public/images/Quinteros Elena.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const QuinterosElenaPage = () => (
   <>
     <Head>
       <title>Quinteros Elena</title>
+      <meta name="description" content="Foto y Quinteros Elena"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const QuinterosElenaPage = () => (
       <Image placeholder="blur" src={QuinterosElena} alt="Foto de Quinteros Elena" />
       <div className={styles.downloadContainer}>
         <a href={QuinterosElena.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/QUINTEROS%20ALMEIDA%20Elena%20Ficha%202019.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

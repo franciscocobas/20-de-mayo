@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import SobrinoGuillermo from '../public/images/Sobrino Guillermo.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const SobrinoGuillermoPage = () => (
   <>
     <Head>
       <title>Sobrino Guillermo</title>
+      <meta name="description" content="Foto y Sobrino Guillermo"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const SobrinoGuillermoPage = () => (
       <Image placeholder="blur" src={SobrinoGuillermo} alt="Foto de Sobrino Guillermo" />
       <div className={styles.downloadContainer}>
         <a href={SobrinoGuillermo.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/SOBRINO%20BERARDI%2C%20Guillermo%20Manuel%20ficha%20accesible.pdf " target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

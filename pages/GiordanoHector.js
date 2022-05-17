@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import GiordanoHector from '../public/images/Giordano Hector.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const GiordanoHectorPage = () => (
   <>
     <Head>
       <title>Giordano Hector</title>
+      <meta name="description" content="Foto y Giordano Hector"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const GiordanoHectorPage = () => (
       <Image placeholder="blur" src={GiordanoHector} alt="Foto de Giordano Hector" />
       <div className={styles.downloadContainer}>
         <a href={GiordanoHector.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/GIORDANO%20CORTAZZO%2C%20H%C3%A9ctor%20Orlando.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

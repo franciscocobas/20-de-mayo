@@ -34,4 +34,15 @@
 .main .downloadContainer {
   margin-top: 2.5rem;
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) {
+  .main .downloadContainer {
+    justify-content: flex-start;
+  }
+  .main .downloadContainer a {
+    margin-right: 1rem;
+  }
 }

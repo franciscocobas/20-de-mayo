@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import GelpiLeonardo from '../public/images/Gelpi Leonardo.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const GelpiLeonardoPage = () => (
   <>
     <Head>
       <title>Gelpi Leonardo</title>
+      <meta name="description" content="Foto y Gelpi Leonardo"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const GelpiLeonardoPage = () => (
       <Image placeholder="blur" src={GelpiLeonardo} alt="Foto de Gelpi Leonardo" />
       <div className={styles.downloadContainer}>
         <a href={GelpiLeonardo.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/GELPI%20C%C3%81CERES%2C%20Leonardo%20Germ%C3%A1n.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import SeveroCarlos from '../public/images/Severo Carlos.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const SeveroCarlosPage = () => (
   <>
     <Head>
       <title>Severo Carlos</title>
+      <meta name="description" content="Foto y Severo Carlos"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const SeveroCarlosPage = () => (
       <Image placeholder="blur" src={SeveroCarlos} alt="Foto de Severo Carlos" />
       <div className={styles.downloadContainer}>
         <a href={SeveroCarlos.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/SEVERO%20BARRETO%2C%20Carlos%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

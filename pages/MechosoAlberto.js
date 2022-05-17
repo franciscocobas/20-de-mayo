@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import MechosoAlberto from '../public/images/Mechoso Alberto.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const MechosoAlbertoPage = () => (
   <>
     <Head>
       <title>Mechoso Alberto</title>
+      <meta name="description" content="Foto y Mechoso Alberto"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const MechosoAlbertoPage = () => (
       <Image placeholder="blur" src={MechosoAlberto} alt="Foto de Mechoso Alberto" />
       <div className={styles.downloadContainer}>
         <a href={MechosoAlberto.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://sitiosdememoria.uy/sites/default/files/2020-02/MECHOSO%20M%C3%89NDEZ%2C%20Alberto%20Cecilio%20Ficha%20accesible_0%281%29.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import SobaAdalberto from '../public/images/Soba Adalberto.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const SobaAdalbertoPage = () => (
   <>
     <Head>
       <title>Soba Adalberto</title>
+      <meta name="description" content="Foto y Soba Adalberto"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const SobaAdalbertoPage = () => (
       <Image placeholder="blur" src={SobaAdalberto} alt="Foto de Soba Adalberto" />
       <div className={styles.downloadContainer}>
         <a href={SobaAdalberto.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/SOBA%20FERN%C3%81NDEZ%2C%20Adalberto%20Waldemar%20Ficha%20accesible_para%20web.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

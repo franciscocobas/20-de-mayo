@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import BurguenoAdaMargaret from '../public/images/Burgueno Ada Margaret.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const BurguenoAdaMargaretPage = () => (
   <>
     <Head>
       <title>Burgueno Ada Margaret</title>
+      <meta name="description" content="Foto y Burgueno Ada Margaret"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const BurguenoAdaMargaretPage = () => (
       <Image placeholder="blur" src={BurguenoAdaMargaret} alt="Foto de Burgueno Ada Margaret" />
       <div className={styles.downloadContainer}>
         <a href={BurguenoAdaMargaret.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/BURGUE%C3%91O%20PEREYRA%2C%20Ada%20Margaret%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

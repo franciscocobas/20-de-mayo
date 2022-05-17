@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import DerganNatalio from '../public/images/Dergan Natalio.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const DerganNatalioPage = () => (
   <>
     <Head>
       <title>Dergan Natalio</title>
+      <meta name="description" content="Foto y Dergan Natalio"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const DerganNatalioPage = () => (
       <Image placeholder="blur" src={DerganNatalio} alt="Foto de Dergan Natalio" />
       <div className={styles.downloadContainer}>
         <a href={DerganNatalio.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/DERGAN%2C%20Natalio%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

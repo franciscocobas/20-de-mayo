@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import FontelaAlberto from '../public/images/Fontela Alberto.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const FontelaAlbertoPage = () => (
   <>
     <Head>
       <title>Fontela Alberto</title>
+      <meta name="description" content="Foto y Fontela Alberto"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const FontelaAlbertoPage = () => (
       <Image placeholder="blur" src={FontelaAlberto} alt="Foto de Fontela Alberto" />
       <div className={styles.downloadContainer}>
         <a href={FontelaAlberto.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/FONTELA%20ALONSO%2C%20Alberto%20Mariano%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

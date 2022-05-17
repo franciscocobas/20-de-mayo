@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import AguirreMaRosa from '../public/images/Aguirre Ma Rosa.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const AguirreMaRosaPage = () => (
   <>
     <Head>
       <title>Aguirre Ma Rosa</title>
+      <meta name="description" content="Foto y Aguirre Ma Rosa"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const AguirreMaRosaPage = () => (
       <Image placeholder="blur" src={AguirreMaRosa} alt="Foto de Aguirre Ma Rosa" />
       <div className={styles.downloadContainer}>
         <a href={AguirreMaRosa.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/AGUIRRE%2C%20Maria%20Rosa%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

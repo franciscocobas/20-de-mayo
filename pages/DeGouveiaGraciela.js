@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import DeGouveiaGraciela from '../public/images/De Gouveia Graciela.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const DeGouveiaGracielaPage = () => (
   <>
     <Head>
       <title>De Gouveia Graciela</title>
+      <meta name="description" content="Foto y De Gouveia Graciela"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const DeGouveiaGracielaPage = () => (
       <Image placeholder="blur" src={DeGouveiaGraciela} alt="Foto de De Gouveia Graciela" />
       <div className={styles.downloadContainer}>
         <a href={DeGouveiaGraciela.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/DE%20GOUVEIA%20GALLO%2C%20Graciela%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

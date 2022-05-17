@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import StromanAdolfo from '../public/images/Stroman Adolfo.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const StromanAdolfoPage = () => (
   <>
     <Head>
       <title>Stroman Adolfo</title>
+      <meta name="description" content="Foto y Stroman Adolfo"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const StromanAdolfoPage = () => (
       <Image placeholder="blur" src={StromanAdolfo} alt="Foto de Stroman Adolfo" />
       <div className={styles.downloadContainer}>
         <a href={StromanAdolfo.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/STROMAN%20CURBELO%2C%20Adolfo%20Isabelino%20ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

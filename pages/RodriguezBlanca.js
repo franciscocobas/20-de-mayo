@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import RodriguezBlanca from '../public/images/Rodriguez Blanca.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const RodriguezBlancaPage = () => (
   <>
     <Head>
       <title>Rodriguez Blanca</title>
+      <meta name="description" content="Foto y Rodriguez Blanca"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const RodriguezBlancaPage = () => (
       <Image placeholder="blur" src={RodriguezBlanca} alt="Foto de Rodriguez Blanca" />
       <div className={styles.downloadContainer}>
         <a href={RodriguezBlanca.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/RODR%C3%8DGUEZ%2C%20Blanca%20Margarita%20accesible..pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

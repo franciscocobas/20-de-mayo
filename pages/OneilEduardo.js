@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import OneilEduardo from '../public/images/Oneil Eduardo.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const OneilEduardoPage = () => (
   <>
     <Head>
       <title>Oneil Eduardo</title>
+      <meta name="description" content="Foto y Oneil Eduardo"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const OneilEduardoPage = () => (
       <Image placeholder="blur" src={OneilEduardo} alt="Foto de Oneil Eduardo" />
       <div className={styles.downloadContainer}>
         <a href={OneilEduardo.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/O%C2%B4NEILL%20VEL%C3%81ZQUEZ%2C%20Heber%20Eduardo%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

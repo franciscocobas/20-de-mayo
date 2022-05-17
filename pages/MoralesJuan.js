@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import MoralesJuan from '../public/images/Morales Juan.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const MoralesJuanPage = () => (
   <>
     <Head>
       <title>Morales Juan</title>
+      <meta name="description" content="Foto y Morales Juan"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const MoralesJuanPage = () => (
       <Image placeholder="blur" src={MoralesJuan} alt="Foto de Morales Juan" />
       <div className={styles.downloadContainer}>
         <a href={MoralesJuan.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/MORALES%20von%20PIEVERLING%2C%20Juan%20Miguel%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

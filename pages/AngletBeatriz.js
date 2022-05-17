@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import AngletBeatriz from '../public/images/Anglet Beatriz.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const AngletBeatrizPage = () => (
   <>
     <Head>
       <title>Anglet Beatriz</title>
+      <meta name="description" content="Foto y Anglet Beatriz"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const AngletBeatrizPage = () => (
       <Image placeholder="blur" src={AngletBeatriz} alt="Foto de Anglet Beatriz" />
       <div className={styles.downloadContainer}>
         <a href={AngletBeatriz.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/ANGLET%2C%20Beatriz%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

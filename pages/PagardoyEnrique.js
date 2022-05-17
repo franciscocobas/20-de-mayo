@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import PagardoyEnrique from '../public/images/Pagardoy Enrique.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const PagardoyEnriquePage = () => (
   <>
     <Head>
       <title>Pagardoy Enrique</title>
+      <meta name="description" content="Foto y Pagardoy Enrique"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const PagardoyEnriquePage = () => (
       <Image placeholder="blur" src={PagardoyEnrique} alt="Foto de Pagardoy Enrique" />
       <div className={styles.downloadContainer}>
         <a href={PagardoyEnrique.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/PAGARDOY%20SAQUIERES%2C%20Julio%20Enrique%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

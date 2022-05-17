@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import CramWashington from '../public/images/Cram Washington.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const CramWashingtonPage = () => (
   <>
     <Head>
       <title>Cram Washington</title>
+      <meta name="description" content="Foto y Cram Washington"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const CramWashingtonPage = () => (
       <Image placeholder="blur" src={CramWashington} alt="Foto de Cram Washington" />
       <div className={styles.downloadContainer}>
         <a href={CramWashington.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/CRAM%20GONZALEZ%2C%20Washington%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

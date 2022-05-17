@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import HernandezHobbasWashington from '../public/images/Hernandez Hobbas Washington.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const HernandezHobbasWashingtonPage = () => (
   <>
     <Head>
       <title>Hernandez Hobbas Washington</title>
+      <meta name="description" content="Foto y Hernandez Hobbas Washington"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const HernandezHobbasWashingtonPage = () => (
       <Image placeholder="blur" src={HernandezHobbasWashington} alt="Foto de Hernandez Hobbas Washington" />
       <div className={styles.downloadContainer}>
         <a href={HernandezHobbasWashington.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/HERNANDEZ%20HOBBAS%2C%20Washington%20Fernando%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

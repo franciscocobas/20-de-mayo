@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import ScopiseNorma from '../public/images/Scopise Norma.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const ScopiseNormaPage = () => (
   <>
     <Head>
       <title>Scopise Norma</title>
+      <meta name="description" content="Foto y Scopise Norma"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const ScopiseNormaPage = () => (
       <Image placeholder="blur" src={ScopiseNorma} alt="Foto de Scopise Norma" />
       <div className={styles.downloadContainer}>
         <a href={ScopiseNorma.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/SC%C3%93PICE%20RIJO%2C%20Norma%20Mary%20Ficha%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

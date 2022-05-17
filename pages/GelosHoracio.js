@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import GelosHoracio from '../public/images/Gelos Horacio.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const GelosHoracioPage = () => (
   <>
     <Head>
       <title>Gelos Horacio</title>
+      <meta name="description" content="Foto y Gelos Horacio"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const GelosHoracioPage = () => (
       <Image placeholder="blur" src={GelosHoracio} alt="Foto de Gelos Horacio" />
       <div className={styles.downloadContainer}>
         <a href={GelosHoracio.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/GELOS%20BONILLA%2C%20Horacio%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

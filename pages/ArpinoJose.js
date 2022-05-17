@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import ArpinoJose from '../public/images/Arpino Jose.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const ArpinoJosePage = () => (
   <>
     <Head>
       <title>Arpino Jose</title>
+      <meta name="description" content="Foto y Arpino Jose"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const ArpinoJosePage = () => (
       <Image placeholder="blur" src={ArpinoJose} alt="Foto de Arpino Jose" />
       <div className={styles.downloadContainer}>
         <a href={ArpinoJose.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/ARPINO%20VEGA%2C%20Jose%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>

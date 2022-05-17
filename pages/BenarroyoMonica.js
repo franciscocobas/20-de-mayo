@@ -6,11 +6,13 @@ import styles from '../styles/Page.module.css';
 import BenarroyoMonica from '../public/images/Benarroyo Monica.jpeg';
 import BackArrow from '../public/images/icons/back_arrow.svg';
 import DownloadIcon from '../public/images/icons/download.svg';
+import BioData from '../public/images/icons/person_data_btn.svg';
 
 const BenarroyoMonicaPage = () => (
   <>
     <Head>
       <title>Benarroyo Monica</title>
+      <meta name="description" content="Foto y Benarroyo Monica"/>
     </Head>
     <header className={styles.header}>
       <Link href="/">
@@ -22,6 +24,7 @@ const BenarroyoMonicaPage = () => (
       <Image placeholder="blur" src={BenarroyoMonica} alt="Foto de Benarroyo Monica" />
       <div className={styles.downloadContainer}>
         <a href={BenarroyoMonica.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
+        <a href="https://www.gub.uy/secretaria-derechos-humanos-pasado-reciente/sites/secretaria-derechos-humanos-pasado-reciente/files/documentos/publicaciones/BENAROYO%20PENC%C3%9A%2C%20M%C3%B3nica%20Ficha%202018%20accesible.pdf" target="_blank" rel="noopener noreferrer"><Image src={BioData} alt="Botón de ir a la página con más detalles" /></a>
       </div>
     </main>
   </>
