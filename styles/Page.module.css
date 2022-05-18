@@ -4,7 +4,7 @@
   z-index: 1;
   background: white;
   color: black;
-  height: 7.5vh;
+  height: 50px;
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -76,12 +76,13 @@
 }
 
 .main .mainImageContainer {
-  height: 82vh;
+  height: 625px;
   position: relative;
 }
 
 .main .mainImageContainer img {
   object-fit: contain;
+  object-position: top;
 }
 
 @media (min-width: 576px) {
