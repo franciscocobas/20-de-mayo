@@ -4,7 +4,7 @@
   z-index: 1;
   background: white;
   color: black;
-  height: 10vh;
+  height: 7.5vh;
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -76,15 +76,8 @@
 }
 
 .main .mainImageContainer {
-  height: 79vh;
+  height: 82vh;
   position: relative;
-}
-
-@media (min-width: 576px) {
-  .main .mainImageContainer {
-    height: 88vh;
-    flex: 1;
-  }
 }
 
 .main .mainImageContainer img {
@@ -92,8 +85,13 @@
 }
 
 @media (min-width: 576px) {
+  .main .mainImageContainer {
+    height: 88vh;
+    max-width: 430px;
+    flex: 1;
+  }
   .main .mainImageContainer img {
-    object-position: left;
+    object-position: left top;
   }
 }
 
@@ -112,6 +110,7 @@
 
 @media (min-width: 576px) {
   .main .downloadContainer {
+    margin-top: 0;
     align-self: flex-start;
     flex-direction: column;
     flex: 1;
