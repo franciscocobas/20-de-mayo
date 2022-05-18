@@ -215,6 +215,11 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.headerContainer}>
           <h1>IMÁGENES DEL SILENCIO</h1>
+          <div className={styles.socialNetworks}>
+            <a href="https://twitter.com/img_delsilencio" target="_blank" rel="noreferrer noopener">TWITTER</a>
+            <a href="https://www.instagram.com/imagenes.del.silencio" target="_blank" rel="noreferrer noopener">INSTAGRAM</a>
+            <a href="https://www.facebook.com/imagenesdelsilencio/" target="_blank" rel="noreferrer noopener">FACEBOOK</a>
+          </div>
           <Image src={MadresYFamiliaresLogo} alt="Logo de Madres y Familiares de Detenidos desaparecidos"/>
         </div>
       </header>
@@ -223,6 +228,11 @@ export default function Home() {
           images.map((image) => image)
         }
       </main>
+      <footer className={styles.footer}>
+        <a href="https://twitter.com/img_delsilencio" target="_blank" rel="noreferrer noopener">TWITTER</a>
+        <a href="https://www.instagram.com/imagenes.del.silencio" target="_blank" rel="noreferrer noopener">INSTAGRAM</a>
+        <a href="https://www.facebook.com/imagenesdelsilencio/" target="_blank" rel="noreferrer noopener">FACEBOOK</a>
+      </footer>
     </>
   );
 }
