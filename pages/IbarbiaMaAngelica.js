@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
+import Script from 'next/script';
 import styles from '../styles/Page.module.css';
 
 import BackArrow from '../public/images/icons/back_arrow.svg';
@@ -17,6 +18,19 @@ const IbarbiaMaAngelicaPage = () => (
       <title>Ibarbia Ma Angelica | 27ᵃ marcha del silencio</title>
       <meta name="description" content="Ibarbia Ma Angelica | Accedé a los retratos de las y los desaparecidos para sostenerlos en la Marcha del Silencio."/>
     </Head>
+    <Script
+      src="https://www.googletagmanager.com/gtag/js?id=G-WY2LRT1PHE"
+      strategy="afterInteractive"
+    />
+    <Script id="google-analytics" strategy="afterInteractive">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WY2LRT1PHE');
+      `}
+    </Script>
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <Link href="/">
@@ -40,7 +54,7 @@ const IbarbiaMaAngelicaPage = () => (
         <Image layout="fill" placeholder="blur" src={IbarbiaMaAngelica} alt="Foto de Ibarbia Ma Angelica" />
       </div>
       <div className={styles.downloadContainer}>
-        <Link href="/">
+        <Link href="/" scroll={false}>
           <a className={styles.downloadBtnWithText}><Image src={BackArrowWithText}  alt="Botón de volver atrás" /></a>
         </Link>
         <a href={IbarbiaMaAngelica.src} download><Image src={DownloadIcon} alt="Icono de descargar la imagen" /></a>
